@@ -1,3 +1,1 @@
-npm run lint:fix
-npm run format:fix
-npm run test -- --watchAll=false
+npm run lint-staged

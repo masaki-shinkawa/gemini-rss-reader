@@ -15,8 +15,7 @@
     "airbnb-typescript",
     "prettier"
   ],
-  "ignorePatterns": ["node_modules", "dist"],
-  "overrides": [],
+  "ignorePatterns": ["node_modules", "dist", "*.js"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "project": "./tsconfig.json",
@@ -98,7 +97,7 @@
       }
     },
     {
-      "files": ["src/app/**/*"],
+      "files": ["src/routes/**/*"],
       "rules": {
         "no-restricted-imports": [
           "error",

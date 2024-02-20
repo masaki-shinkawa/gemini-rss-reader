@@ -1,10 +1,11 @@
-import './App.css';
+import { AppProvider } from './providers/AppProvider';
+import { AppRoutes } from './routes';
 
 const App = () => {
   return (
-    <main>
-      <p>main</p>
-    </main>
+    <AppProvider>
+      <AppRoutes />
+    </AppProvider>
   );
 };
 
