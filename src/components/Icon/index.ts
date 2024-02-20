@@ -1,0 +1,1 @@
+export { SettingIcon } from './SettingIcon';

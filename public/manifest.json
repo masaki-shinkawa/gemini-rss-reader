@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Summarize RSS Reader",
+  "name": "Summarize RSS Reader",
   "icons": [
     {
       "src": "favicon.ico",
